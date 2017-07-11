@@ -3,8 +3,10 @@
 # Requirements
 * [Docker](https://docs.docker.com/engine/installation/)
 
+Change var group in build.gradle by to docker hub user.
 # Build image
 ``` bash
+$ docker login
 $ ./gradlew build buildDocker
 ```
 # Docker RUN
