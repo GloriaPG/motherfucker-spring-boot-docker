@@ -3,7 +3,7 @@
 # Requirements
 * [Docker](https://docs.docker.com/engine/installation/)
 
-Change var group in build.gradle by to docker hub user.
+Change var group in build.gradle by to docker hub user https://github.com/GloriaPG/motherfucker-spring-boot-docker/blob/master/build.gradle#L22
 # Build image
 ``` bash
 $ docker login
